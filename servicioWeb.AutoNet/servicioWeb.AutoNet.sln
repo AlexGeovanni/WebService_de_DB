@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servidor", "Servidor", "{39FA72C8-FBBB-467B-81C8-4B71C7464E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serviceweb.AutosNet", "serviceweb.AutosNet\serviceweb.AutosNet.csproj", "{FD900059-0E6C-44F2-A0B9-54ED09844D26}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD900059-0E6C-44F2-A0B9-54ED09844D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD900059-0E6C-44F2-A0B9-54ED09844D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD900059-0E6C-44F2-A0B9-54ED09844D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD900059-0E6C-44F2-A0B9-54ED09844D26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD900059-0E6C-44F2-A0B9-54ED09844D26} = {39FA72C8-FBBB-467B-81C8-4B71C7464E19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8BD5860-23CE-4DB8-BC2D-8580CF8C0FB4}
